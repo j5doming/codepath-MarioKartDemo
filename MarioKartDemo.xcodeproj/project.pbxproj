@@ -97,11 +97,10 @@
 		0D52DEAB2237156C00364F94 /* MarioKartDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0D52DEAC2237156C00364F94 /* AppDelegate.swift */,
-				0D52DEAE2237156C00364F94 /* ViewController.swift */,
-				0D52DEB02237156C00364F94 /* Main.storyboard */,
+				0D52DEDA2237158F00364F94 /* View Controllers */,
+				0D52DEDB223715A600364F94 /* Storyboards */,
+				0D52DEDC223715B800364F94 /* Additional Files */,
 				0D52DEB32237156E00364F94 /* Assets.xcassets */,
-				0D52DEB52237156E00364F94 /* LaunchScreen.storyboard */,
 				0D52DEB82237156E00364F94 /* Info.plist */,
 			);
 			path = MarioKartDemo;
@@ -123,6 +122,31 @@
 				0D52DECE2237156E00364F94 /* Info.plist */,
 			);
 			path = MarioKartDemoUITests;
+			sourceTree = "<group>";
+		};
+		0D52DEDA2237158F00364F94 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D52DEAE2237156C00364F94 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0D52DEDB223715A600364F94 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0D52DEB02237156C00364F94 /* Main.storyboard */,
+				0D52DEB52237156E00364F94 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0D52DEDC223715B800364F94 /* Additional Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D52DEAC2237156C00364F94 /* AppDelegate.swift */,
+			);
+			path = "Additional Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
